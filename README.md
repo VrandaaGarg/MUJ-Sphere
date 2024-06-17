@@ -1,27 +1,32 @@
-# HTML, CSS, JS (Auto Refresh)
+# MUJ-Sphere
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+## Overview
+Welcome to MUJ-Sphere, a website developed during our very first hackathon. Our mission was to create a student-friendly platform that serves as a comprehensive resource center for students. Here, students can access handwritten notes from class toppers, recorded lectures, past year exam papers, club information, and details about nearby food outlets and services.
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+## Features
+### 1. Handwritten Notes
+- **Description**: Access notes written by the top students in various subjects.
 
-## Disable Auto Refresh
+### 2. Lecture Recordings
+- **Description**: Missed a class? No worries. Find recordings of lectures to help you catch up.
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+### 3. Past Year Papers
+- **Description**: Get past year exam papers from MUJ central to help with exam preparation.
 
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: '0.0.0.0',
-    hmr: false, // Change this line to `false` disable auto-refreshing.
-  }
-})
-```
+### 4. Club Information
+- **Description**: Learn about various student clubs, their activities, and how to join them.
 
-## Packages
+### 5. Nearby Food Outlets and Services (GHS)
+- **Description**: Find contact information and details about nearby food outlets and services.
 
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
+## How to Use
+1. **Navigation**: Use the navigation bar at the top to explore different sections of the website.
+2. **Download/Watch**: Download notes and past papers, or watch lecture recordings directly on the site.
 
-## Learn More
+## Technology Stack
+- **Frontend**: HTML, CSS, JavaScript
 
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
+## Contributing
+We welcome contributions! Please fork the repository and create a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
+
+Thank you for using MUJ-Sphere. We hope it makes your academic life easier and more organized!
